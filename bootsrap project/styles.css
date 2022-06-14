@@ -1,0 +1,62 @@
+body{
+    height: 100%;
+    width: 100%;
+    
+    
+
+}
+.row1{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: grey;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+.right{
+    float: right;
+}
+
+.row2{
+    height: 600px;
+    width: 100%;
+    
+    justify-items: center; display: flex;
+}
+
+.row2col1{
+    position: fixed;
+    height: 600px;
+    width:200px ;
+  
+    
+}
+
+.row2col2{
+    height: 600px;
+    width: 100%;
+    
+    
+   
+    justify-content: center;
+}
+li{
+  
+    margin-top: 20px;
+}
+
+.foot{
+    height: 200px;
+    width: 100%;
+    background-color: burlywood;
+}
+.loader
+{
+    position: absolute;
+    z-index: 999;
+    top: 40%;
+    left: 50%;
+
+}
